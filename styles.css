@@ -1,0 +1,173 @@
+:root{
+    --top: 'Sacramento', cursive;
+    --title: 'Merriweather', serif;
+    --text: 'Kalnia', serif;;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: var(--top);
+}
+
+h2, h3{
+    font-family: var(--title);
+    color: #6C3428;
+}
+
+p{
+    font-family: var(--text);
+}
+
+.gradient-background{
+    color: black;
+    background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+}
+
+.py-5{
+    height: 100vh;
+}
+
+/*Me*/
+
+.icon-square {
+    padding: 0;
+    margin: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.profile-img{
+    margin: 0;
+}
+
+.text-body-emphasis{
+    font-size: 3rem;
+}
+
+.text{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.bg-body-white{
+    background-color: white;
+}
+
+.omar{
+    height: 60vh;
+    margin: 0;
+}
+
+.omar-2{
+    height: 35vh;
+}
+
+.designed-for-me{
+    color: #6C3428;
+}
+
+
+/*Projects*/
+.perle-text{
+    color: #DFA878;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+}
+
+.img-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Img*/
+
+.background-img-1{
+    background-image: url(./images/study.jpg);
+}
+
+.card-cover{
+    background-image: url('./images/fire.jpg');
+    background-size: cover;
+}
+
+.text-color{
+    color: whitesmoke;
+}
+
+.description-text{
+    color: black;
+}
+
+.style{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-me{
+    height: 50vh;
+}
+
+/*Footer*/
+.text-body-emphasis-color{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #6C3428;
+}
+
+.btn-primary{
+    background-color: #B19470;
+    border-color: #6C3428;
+}
+
+.btn-primary:hover{
+    background-color: #76453B;
+    border-color: #B19470;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    /* Ajustes para dispositivos móviles con ancho de pantalla hasta 576px */
+    .py-5 {
+      height: auto; /* Ajusta la altura automáticamente en dispositivos móviles */
+    }
+  
+    h1 {
+      font-size: 2.5rem; /* Reduce el tamaño del título en dispositivos móviles */
+    }
+  
+    .lead {
+      font-size: 1rem; /* Reduce el tamaño del texto en dispositivos móviles */
+    }
+  
+    .icon-square {
+      width: 6rem; /* Reduce el tamaño del icono en dispositivos móviles */
+      height: 6rem;
+    }
+  
+    .omar,
+    .omar-2 {
+      height: auto; /* Ajusta la altura automáticamente en dispositivos móviles */
+    }
+  
+    .img-grid {
+      grid-template-columns: repeat(2, 1fr); /* Cambia a 2 columnas en dispositivos móviles */
+    }
+  
+    .container-me {
+      height: auto; /* Ajusta la altura automáticamente en dispositivos móviles */
+    }
+  
+    .text-body-emphasis-color {
+      font-size: 3rem; /* Reduce el tamaño del título del footer en dispositivos móviles */
+    }
+  }
+  
